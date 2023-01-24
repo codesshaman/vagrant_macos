@@ -26,7 +26,7 @@ Copy/move box and named it "macos". In the terminal go inside the project folder
 
 Inicialize configuration:
 
-``vagrant box add jhcook/macos-sierra ubuntu``
+``vagrant box add jhcook/macos-sierra macos``
 
 or with make:
 
