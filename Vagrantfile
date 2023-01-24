@@ -10,7 +10,7 @@ Vagrant.configure("2") do |macos|
     macos.vm.synced_folder ".", "/vagrant", disabled: true
     macos.vm.network :private_network, ip: IP
     macos.vm.provider "virtualbox" do |vb|
-        vb.name = "macos"
+        vb.name = "macos_sierra"
         vb.memory = MEMORY_COUNT
         vb.cpus = CPU_CORES_COUNT
         vb.gui = true
