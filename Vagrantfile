@@ -2,8 +2,8 @@
 # vi: set ft=ruby :
 
 IP =  "192.168.58.93"   # Don't change!
-CPU_CORES_COUNT = "8"   # Cnahge if necessary
-MEMORY_COUNT = "16384"   # Cnahge if necessary
+CPU_CORES_COUNT = "6"   # Cnahge if necessary
+MEMORY_COUNT = "8192"   # Cnahge if necessary
 
 Vagrant.configure("2") do |macos|
     macos.vm.box = "jhcook/macos-sierra"

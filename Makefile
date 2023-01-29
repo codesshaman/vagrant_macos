@@ -63,4 +63,4 @@ fclean:
 	@printf "$(ERROR_COLOR)==== Force destroy configurations ====$(NO_COLOR)\n"
 	@vagrant destroy --force
 
-.PHONY	: all help build down re ps clean fclean
+.PHONY	: all help build down re ps path clean fclean
