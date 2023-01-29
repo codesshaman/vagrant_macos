@@ -18,7 +18,11 @@ Clonr this repository:
 
 Copy/move box and named it "macos". In the terminal go inside the project folder:
 
-``cp ~/Downloads/8abfafd2-d414-4731-9b9d-74d7c34f3d0f path_to/vagrant_macos_sierra/macos``
+``cp/mv ~/Downloads/8abfafd2-d414-4731-9b9d-74d7c34f3d0f path_to/vagrant_macos_sierra/macos``
+
+Example:
+
+``mv 8abfafd2-d414-4731-9b9d-74d7c34f3d0f vagrant_macos_sierra/macos``
 
 ``cd vagrant_macos_sierra``
 
