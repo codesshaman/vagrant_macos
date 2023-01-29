@@ -61,6 +61,8 @@ or with make:
 1. Open external folder "<myproject>" or "<myproject>/src" in Pycharm
 2. Use VM for project creation and external project folder for use git
 
+Change PATH: ``export VAGRANT_HOME=".vagrantboxes"`` or ``make path``
+
 Start: ``vagrant up`` or ``make``
 
 Stop: ``vagrant halt`` or ``make down``
